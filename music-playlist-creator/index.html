@@ -1,27 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Music Playlist Explorer</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Music Playlist Explorer</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <!-- Your header content here -->
-    </header>
+  <header>
+    <!-- Your header content here -->
+    <h1>Music Playlist</h1>
+  </header>
+  <main>
 
-    <main> 
-        <!-- Your main content here -->
-    </main>
+    <!-- Trigger/Open The Modal -->
 
-    <footer>
-        <!-- Your footer content here -->
-    </footer>
-    <script src="data/data.js"></script>
-    <script src="script.js"></script>
+    <!-- The Modal -->
+    <!-- Modal content -->
+
+
+    <!-- Single hard-coded playlist card -->
+    <container>
+      <div class="playlist-cards">
+        <div class="playlist-card">
+          <img src="./assets/img/playlist.png" alt="Playlist Cover">
+          <div class="playlist-card-content">
+            <h3>Playlist Title 1</h3>
+            <p>Creator Name</p>
+            <span>&#9825;</span>
+          </div>
+        </div>
+        <div class="playlist-card">
+          <img src="./assets/img/playlist.png" alt="Playlist Cover">
+          <div class="playlist-card-content">
+            <h3>Playlist Title 2</h3>
+            <p>Creator Name</p>
+            <span>&#9825;</span>
+          </div>
+        </div>
+        <div class="playlist-card">
+          <img src="./assets/img/playlist.png" alt="Playlist Cover">
+          <div class="playlist-card-content">
+            <h3>Playlist Title 3</h3>
+            <p>Creator Name</p>
+            <span>&#9825;</span>
+          </div>
+        </div>
+        <div class="playlist-card">
+          <img src="./assets/img/playlist.png" alt="Playlist Cover">
+          <div class="playlist-card-content">
+            <h3>Playlist Title 4</h3>
+            <p>Creator Name</p>
+            <span>&#9825;</span>
+          </div>
+        </div>
+        <div class="playlist-card">
+          <img src="./assets/img/playlist.png" alt="Playlist Cover">
+          <div class="playlist-card-content">
+            <h3>Playlist Title 5</h3>
+            <p>Creator Name</p>
+            <span>&#9825;</span>
+          </div>
+        </div>
+        <div class="playlist-card">
+          <img src="./assets/img/playlist.png" alt="Playlist Cover">
+          <div class="playlist-card-content">
+            <h3>Playlist Title 6</h3>
+            <p>Creator Name</p>
+            <span>&#9825;</span>
+          </div>
+        </div>
+        <div>
+    </container>
+    <!-- Model click -->
+
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <button class="modal-close"></button>
+        <h3>Playlist Title</h3>
+        <p>Creator Name</p>
+        <span>&#9825;</span>
+        <ul>
+          <li>Song 1</li>
+          <li>Song 2</li>
+          <li>Song 3</li>
+          <li>Song 4</li>
+        </ul>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <!-- Your footer content here -->
+    <p>Listen to music & create playlist
+      with no ads!</p>
+  </footer>
+
+  <!-- Modal overlay structure -->
+
+  <script src="data/data.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
